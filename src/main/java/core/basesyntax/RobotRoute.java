@@ -17,6 +17,8 @@ public class RobotRoute {
                 case DOWN:
                     robot.turnRight();
                     break;
+                default:
+                    break;
             }
             while (robot.getX() != toX) {
                 robot.stepForward();
