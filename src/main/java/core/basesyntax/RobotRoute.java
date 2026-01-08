@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class RobotRoute {
     public void moveRobot(Robot robot, int toX, int toY) {
-
+        //
         if (robot.getX() > toX) {
             switch (robot.getDirection()) {
                 case LEFT:
